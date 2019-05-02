@@ -14,11 +14,16 @@ import java.net.SocketTimeoutException;
 public class GreetingServer extends Thread {
     private ServerSocket serverSocket;
 
-
+    /**
+     * Constructor method for the GreetingServer class
+     * @param port The port that the server will be accessed from
+     * @throws IOException IOException thrown on failure of creation of the {@link ServerSocket}
+     */
     public GreetingServer(int port) throws IOException {
         serverSocket = new ServerSocket(port);
         serverSocket.setSoTimeout(10000);
     }
+
 
     public void run() {
         while(true){

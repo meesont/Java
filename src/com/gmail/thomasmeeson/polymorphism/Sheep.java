@@ -30,4 +30,28 @@ public class Sheep extends Animal {
         super(name, age, classification);
         this.woolColour = "White";
     }
+
+    /**
+     *
+     * @return Colour of the sheep's wool
+     */
+    public String getWoolColour() {
+        return woolColour;
+    }
+
+    /**
+     *
+     * @param woolColour The colour of the sheep's wool
+     */
+    public void setWoolColour(String woolColour) {
+        this.woolColour = woolColour;
+    }
+//
+//    public Sheep breedSheep(Sheep mother, Sheep father) {
+//        if(mother.equals(father)) {
+//            return null;
+//        } else {
+//
+//        }
+//    }
 }

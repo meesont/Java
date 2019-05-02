@@ -24,6 +24,7 @@ public class Animal {
 
 
     /**
+     *
      * @return The name of the animal
      */
     public String getName() {
@@ -31,6 +32,7 @@ public class Animal {
     }
 
     /**
+     *
      * @param name The name of the animal
      */
     public void setName(String name) {
@@ -38,6 +40,7 @@ public class Animal {
     }
 
     /**
+     *
      * @return The age of the animal
      */
     public int getAge() {
@@ -45,6 +48,7 @@ public class Animal {
     }
 
     /**
+     *
      * @param age The age of the animal
      */
     public void setAge(int age) {
@@ -52,6 +56,7 @@ public class Animal {
     }
 
     /**
+     *
      * @return The classification of the animal
      */
     public Classification getClassification() {
@@ -59,6 +64,7 @@ public class Animal {
     }
 
     /**
+     *
      * @param classification The classification of the animal
      */
     public void setClassification(Classification classification) {

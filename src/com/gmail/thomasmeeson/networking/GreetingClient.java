@@ -10,6 +10,7 @@ import java.net.Socket;
 public class GreetingClient {
 
     /**
+     *
      * @param serverName The name the of the server, in most cases, localhost
      * @param port The port associated with the socketServer
      * @throws IOException Exception thrown when trying to create new socket
