@@ -13,4 +13,4 @@ Contains some basic java classes which relate to the following
     * Basic utility functions and classes
 
 All of the packages relate back and interlink with the main 
-class (excluding the Client/Server model)
+class (excluding the Client/Server model classes)
