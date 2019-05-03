@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1384d86-e390-4405-a7f0-8f49e2a04da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/thomas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/PolymorphismMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/inheritence/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/PolymorphismMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/PolymorphismMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Sheep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/utils/IntegerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/utils/IntegerUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +40,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="-57">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/utils/IntegerUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -57,7 +64,6 @@
             <state relative-caret-position="61">
               <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding>
-                <element signature="e#0#1093#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -67,10 +73,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state>
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding>
-                <element signature="e#0#121#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -78,24 +83,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/PolymorphismMain.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/inheritence/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="102">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Animal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/PolymorphismMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Sheep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="48" column="2" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+            <state relative-caret-position="527">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
               <folding>
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1157#1158#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Classification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+            <state>
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -113,10 +136,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
+            <state relative-caret-position="272">
               <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
-                <element signature="e#0#119#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -163,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/abc.http" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/JsTest.js" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/arrays/ArraySortingAlgs.java" />
-        <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/utils/IntegerUtils.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/networking/URLs.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/arrays/ArrayMethods.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/URLs.java" />
@@ -182,6 +203,8 @@
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingServer.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/PolymorphismMain.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Sheep.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/utils/IntegerUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/inheritence/Animal.java" />
       </list>
     </option>
   </component>
@@ -204,7 +227,6 @@
     </navigator>
     <panes>
       <pane id="Course" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,6 +251,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="thomasmeeson" type="462c0819:PsiDirectoryNode" />
               <item name="arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="thomasmeeson" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearningProject" type="b2602c69:ProjectViewProjectNode" />
@@ -262,6 +291,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -317,7 +347,8 @@
       <option name="presentableId" value="Default" />
       <updated>1556570570960</updated>
       <workItem from="1556570572568" duration="9967000" />
-      <workItem from="1556737009946" duration="8349000" />
+      <workItem from="1556737009946" duration="8396000" />
+      <workItem from="1556879856587" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="Add README.md">
       <created>1556823346141</created>
@@ -340,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556825847589</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update polymorphism classes">
+      <created>1556837314967</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556837314968</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18316000" />
+    <option name="totallyTimeSpent" value="18654000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,16 +395,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759036" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759036" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" sideWeight="0.50240964" side_tool="true" weight="0.2532189" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50240964" side_tool="true" weight="0.2532189" />
-      <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
@@ -380,6 +416,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -398,7 +435,8 @@
     <MESSAGE value="Add README.md" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Add polymorphism package and classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add polymorphism package and classes" />
+    <MESSAGE value="Update polymorphism classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update polymorphism classes" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -406,16 +444,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/Guild.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/Day.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/Day.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/abc.http" />
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/JsTest.js" />
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/networking/URLs.java" />
@@ -426,40 +455,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/utils/IntegerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/arrays/ArraySortingAlgs.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/Sockets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/Sockets.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/EnumTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/ClientServer.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/EnumTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Type.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/io/UserInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
+        <state>
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="272">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -471,99 +492,76 @@
         <state relative-caret-position="61">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
-            <element signature="e#0#1093#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/ClientServer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="-57">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Type.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/utils/IntegerUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="391">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/io/UserInput.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/inheritence/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Classification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#121#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/PolymorphismMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#119#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Classification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="74" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+        <state relative-caret-position="136">
+          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Sheep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="48" column="2" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+        <state relative-caret-position="527">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
           <folding>
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
         </state>
       </provider>
     </entry>

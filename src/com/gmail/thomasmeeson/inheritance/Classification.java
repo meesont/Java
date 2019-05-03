@@ -2,7 +2,7 @@
  * Copyright (c) 2019. Thomas Meeson
  */
 
-package com.gmail.thomasmeeson.polymorphism;
+package com.gmail.thomasmeeson.inheritance;
 
 public enum Classification {
     /**

@@ -9,7 +9,7 @@ import java.util.Random;
 public class IntegerUtils {
 
     /**
-     *
+     * A method for generating a random integer within a min/max range
      * @param min Minimum integer value for range
      * @param max Maximum integer value for range
      * @return Random integer within range of min and max
