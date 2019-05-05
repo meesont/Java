@@ -10,6 +10,10 @@ public class UserInput {
 
     public void userInputTest(){
         Scanner scanner = new Scanner(System.in); // System.in is the standard java input stream
+        System.out.println("Enter your name: ");
+        String nxtLine = scanner.nextLine();
+
+        System.out.println("hello " + nxtLine);
     }
 
 }
