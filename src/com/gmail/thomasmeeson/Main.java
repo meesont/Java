@@ -7,7 +7,6 @@ package com.gmail.thomasmeeson;
 import com.gmail.thomasmeeson.networking.URLs;
 import com.gmail.thomasmeeson.utils.IntegerUtils;
 
-import java.io.IOException;
 import java.util.Arrays;
 
 public class Main {
@@ -23,15 +22,17 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-
-        try {
-            url.urlGetter("https://www.quora.com/");
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        System.out.println("Hello World!");
+//
+//        try {
+//            url.urlGetter("https://www.quora.com/");
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 //        arrays();
+
+
     }
 
     private static void arrays(){

@@ -4,7 +4,7 @@
 
 package com.gmail.thomasmeeson.inheritance;
 
-public class PolymorphismMain {
+public class InheritanceMain {
 
 
     public static void main(String[] args) {
