@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1384d86-e390-4405-a7f0-8f49e2a04da2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/io/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/io/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/io/UserInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="289">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -117,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingServer.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Car.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/io/UserInput.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -241,7 +251,7 @@
       <workItem from="1556737009946" duration="8396000" />
       <workItem from="1556879856587" duration="3892000" />
       <workItem from="1556986116758" duration="231000" />
-      <workItem from="1557091002731" duration="33000" />
+      <workItem from="1557091002731" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="Add README.md">
       <created>1556823346141</created>
@@ -282,7 +292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22519000" />
+    <option name="totallyTimeSpent" value="22581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -533,8 +543,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/io/UserInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="289">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
