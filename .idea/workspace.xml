@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1384d86-e390-4405-a7f0-8f49e2a04da2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/bank/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/bank/AccountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/bank/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/thomas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/thomas.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/DijkstraMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/DijkstraMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstraBroken/Dijkstra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstraBroken/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/dataStructures/PriorityQueueImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gmail/thomasmeeson/dataStructures/PriorityQueueImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningProject/com/gmail/thomasmeeson/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningProject/com/gmail/thomasmeeson/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningProject/com/gmail/thomasmeeson/inheritance/PolymorphismMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningProject/com/gmail/thomasmeeson/io/UserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningProject/com/gmail/thomasmeeson/io/UserInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningProject/com/gmail/thomasmeeson/networking/GreetingServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearningProject/com/gmail/thomasmeeson/networking/GreetingServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearningProject/com/gmail/thomasmeeson/polymorphism/Person.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +39,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/DijkstraMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+              <caret line="58" column="61" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/dataStructures/PriorityQueueImplementation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -56,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/Edge.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -65,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="e#564#565#0" expanded="true" />
                 <element signature="e#598#599#0" expanded="true" />
@@ -87,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/bank/Account.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/GreetingServer.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Car.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/io/UserInput.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/Dijkstra.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/Graph.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/dataStructures/PriorityQueue.java" />
@@ -176,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/Node.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/Edge.java" />
         <option value="$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/DijkstraMain.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -344,7 +364,7 @@
       <workItem from="1556879856587" duration="3892000" />
       <workItem from="1556986116758" duration="231000" />
       <workItem from="1557091002731" duration="291000" />
-      <workItem from="1557220335619" duration="11393000" />
+      <workItem from="1557220335619" duration="11788000" />
     </task>
     <task id="LOCAL-00001" summary="Add README.md">
       <created>1556823346141</created>
@@ -388,11 +408,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557258193029</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update Dijkstra's Algorithm, begin work on 'Bank' structure. Add documentation to Edge and Node classes">
+      <created>1557313403917</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557313403917</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34170000" />
+    <option name="totallyTimeSpent" value="34565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,7 +516,9 @@
     <MESSAGE value="Update polymorphism classes" />
     <MESSAGE value="Fix naming" />
     <MESSAGE value="Add Algs/DataStructures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Algs/DataStructures" />
+    <MESSAGE value="Update Dijkstra's Algorithm, begin work on 'Bank' structure. Add documentation to Edge and Node classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Dijkstra's Algorithm, begin work on 'Bank' structure. Add documentation to Edge and Node classes" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -512,16 +541,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/Sockets.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/EnumTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/ClientServer.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/polymorphism/Type.java" />
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/networking/URLs.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -612,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstraBroken/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -635,16 +647,6 @@
             <element signature="e#743#744#0" expanded="true" />
             <element signature="e#1013#1014#0" expanded="true" />
             <element signature="e#1033#1034#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/dataStructures/PriorityQueueImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -703,7 +705,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/bank/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -720,7 +722,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="e#564#565#0" expanded="true" />
             <element signature="e#598#599#0" expanded="true" />
@@ -731,14 +733,44 @@
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/algorithms/dijkstra/DijkstraMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+          <caret line="58" column="61" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gmail/thomasmeeson/dataStructures/PriorityQueueImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>

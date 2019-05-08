@@ -23,7 +23,6 @@
 hs_err_pid*
 
 # Created by .ignore support plugin (hsz.mobi)
-.idea/
 *.iws
 /out/
 .idea_modules/
@@ -38,3 +37,7 @@ fabric.properties
 gradle-app.setting
 !gradle-wrapper.jar
 .gradletasknamecache
+
+LearningProject.imi
+.idea/
+/out/
