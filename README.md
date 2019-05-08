@@ -13,5 +13,8 @@ Contains some basic java classes which relate to the following
     * Basic utility functions and classes
 * Algorithms
    * Contains basic algorithms, currently Dijkstra's shortest path algorithm
+* Bank
+   * A basic attempt at implementing a Client/Server bank style transaction model
+   * This is simply a proof of concept and contains no security features
 All of the packages relate back and interlink with the main 
 class (excluding the Client/Server model classes)
