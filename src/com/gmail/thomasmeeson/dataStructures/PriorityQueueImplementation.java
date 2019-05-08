@@ -4,6 +4,7 @@
 
 package com.gmail.thomasmeeson.dataStructures;
 
+import java.util.Iterator;
 import java.util.PriorityQueue;
 
 public class PriorityQueueImplementation {
@@ -21,6 +22,14 @@ public class PriorityQueueImplementation {
         // PriorityQueue#peek() returns value of first element in queue but does not remove
         System.out.println(pQueue.peek());
 
+        // PriorityQueue has an inbuilt iterator to iterate through every value
+        Iterator<String> it = pQueue.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
+
+        // PriorityQueue#poll() returns value and removes first element in queue
+        pQueue.poll();
     }
 
 }

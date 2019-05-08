@@ -4,10 +4,13 @@
 
 package com.gmail.thomasmeeson.algorithms.dijkstra;
 
+import java.util.ArrayList;
+
 public class Node implements Comparable<Node>{
 
     final String value;
-    public Edge[] adjacencies;
+//    public Edge[] adjacencies;
+    public ArrayList<Edge> adjacencies;
     double shortestDistance = Double.POSITIVE_INFINITY;
     public Node parent;
 
@@ -21,5 +24,9 @@ public class Node implements Comparable<Node>{
 
     public int compareTo(Node other) {
         return Double.compare(shortestDistance, other.shortestDistance);
+    }
+
+    public void addEdge(Edge e) {
+        this.adjacencies.add(e);
     }
 }
