@@ -24,7 +24,6 @@ hs_err_pid*
 
 # Created by .ignore support plugin (hsz.mobi)
 *.iws
-/out/
 .idea_modules/
 atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
@@ -37,7 +36,6 @@ fabric.properties
 gradle-app.setting
 !gradle-wrapper.jar
 .gradletasknamecache
-
 LearningProject.imi
 .idea/
 /out/

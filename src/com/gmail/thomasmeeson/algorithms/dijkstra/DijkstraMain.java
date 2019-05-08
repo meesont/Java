@@ -13,7 +13,7 @@ public class DijkstraMain {
 
     /**
      * This method is designed to update the shortestDistance value for node {@param n}
-     * @param n The node to calculate the paths for
+     * @param n The node to calculate the paths from, the source of the graph
      */
     public static void computePaths(Node n) {
 
@@ -66,6 +66,11 @@ public class DijkstraMain {
         }
     }
 
+    /**
+     * A function to call Dijkstra's algorithm, relies on {@see computePaths} having been called first
+     * @param target The target to get too, from the source given too {@see computePaths}
+     * @return A list of nodes
+     */
     public static List<Node> getShortestPathTo(Node target){
         List<Node> path = new ArrayList<>();
         for (Node node = target; node != null; node = node.parent) {
@@ -75,6 +80,7 @@ public class DijkstraMain {
         Collections.reverse(path);
         return path;
     }
+
 
     public static void main(String[] args) {
 
@@ -100,6 +106,12 @@ public class DijkstraMain {
         e.addEdge(new Edge(g, 17));
         f.addEdge(new Edge(g, 5));
 
+
+        // Compute the paths with A as the source node
+        computePaths(b);
+
+        List<Node> path = getShortestPathTo(f);
+        System.out.println("Path from node 'b' to node 'f': " + path);
     }
 
 }
