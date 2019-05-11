@@ -11,6 +11,8 @@ import java.util.UUID;
 
 public class Bank {
 
+
+
     public static void main(String[] args) {
         Account mainAccount = new Account(AccountType.CURRENT, "Thomas", "Meeson", "Mr");
         UUID mainAccountID = mainAccount.getAccountID();

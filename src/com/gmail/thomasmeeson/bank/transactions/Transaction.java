@@ -13,7 +13,6 @@ import java.util.UUID;
 /**
  * A class to represent a unique transaction created on the server
  * @author Tom Meeson
- *
  */
 
 public class Transaction {
@@ -24,19 +23,64 @@ public class Transaction {
     private TransactionPriority transactionPriority;
     private TransactionType transactionType;
 
-    /**
-     * Create a transaction from one account to another
-     * @param accountFrom
-     * @param accountTo
-     * @param balance
-     * @param transactionID
-     * @deprecated Replaced by Transaction(accountFrom, accountTo, balance,
-     */
-    public Transaction(Account accountFrom, Account accountTo, double balance, UUID transactionID) {
+
+    public Transaction(Account accountFrom, Account accountTo, double balance, TransactionPriority transactionPriority, TransactionType transactionType) {
         this.accountFrom = accountFrom;
         this.accountTo = accountTo;
         this.balance = balance;
-        this.transactionID = transactionID;
+        this.transactionPriority = transactionPriority;
+        this.transactionType = transactionType;
+
+        this.transactionID = UUID.randomUUID();
     }
 
+    public Transaction(Account accountFrom, Account accountTo, double balance) {
+        this.accountFrom = accountFrom;
+        this.accountTo = accountTo;
+        this.balance = balance;
+
+        this.transactionPriority = TransactionPriority.NORMAL;
+        this.transactionType = TransactionType.SINGULAR;
+        this.transactionID = UUID.randomUUID();
+    }
+
+    public Account getAccountFrom() {
+        return accountFrom;
+    }
+
+    public Account getAccountTo() {
+        return accountTo;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public UUID getTransactionID() {
+        return transactionID;
+    }
+
+    public TransactionPriority getTransactionPriority() {
+        return transactionPriority;
+    }
+
+    public TransactionType getTransactionType() {
+        return transactionType;
+    }
+
+    public void setAccountFrom(Account accountFrom) {
+        this.accountFrom = accountFrom;
+    }
+
+    public void setAccountTo(Account accountTo) {
+        this.accountTo = accountTo;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public void setTransactionPriority(TransactionPriority transactionPriority) {
+        this.transactionPriority = transactionPriority;
+    }
 }
