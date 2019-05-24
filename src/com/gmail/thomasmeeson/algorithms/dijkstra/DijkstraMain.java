@@ -84,7 +84,6 @@ public class DijkstraMain {
 
     public static void main(String[] args) {
 
-//        List<Character> chars = Arrays.asList('A', 'B', 'C', 'D', 'E', 'F', 'G');
 
         Node a = new Node("a");
         Node b = new Node("b");
@@ -115,20 +114,3 @@ public class DijkstraMain {
     }
 
 }
-
-/*
-
-if __name__ == '__main__':
-    graph = Graph()
-
-    for node in ['A', 'B', 'C', 'D', 'E', 'F', 'G']:
-        graph.add_node(node)
-
-
-    graph.add_edge('F', 'G', 5)
-
-
-
-    print(shortest_path(graph, 'B', 'F')) # output: (20, ['A', 'H', 'I'])
-
-*/

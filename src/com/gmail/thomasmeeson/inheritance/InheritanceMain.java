@@ -11,6 +11,8 @@ public class InheritanceMain {
         Sheep redSheep = new Sheep("Tom", 20, Classification.OMNIVORE, "RED");
         Sheep greenSheep = new Sheep("TheSheep", 20, Classification.HERBIVORE, "GREEN");
         Sheep defaultSheep = new Sheep("Sheepy", 19, Classification.OMNIVORE);
-        Animal dog = new Sheep("Bob", 20, Classification.CARNIVORE);
+
+        Dog dog = new Dog("The dog", 9, Classification.OMNIVORE, "Rottwiler");
+        dog.eat(); // calls Dog.eat(), and in turn calls the super method Animal.eat()
     }
 }

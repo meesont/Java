@@ -36,6 +36,7 @@ fabric.properties
 gradle-app.setting
 !gradle-wrapper.jar
 .gradletasknamecache
-LearningProject.imi
+
 .idea/
 /out/
+LearningProject.iml

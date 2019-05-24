@@ -11,7 +11,7 @@ public class Animal {
     Classification classification;
 
     /**
-     *
+     * Constructor for the Animal class
      * @param name The name of the animal
      * @param age The age of the animal
      * @param classification The classification of the animal, choice of Herbivore, Omnivore and Carnivore
@@ -22,6 +22,12 @@ public class Animal {
         this.classification = classification;
     }
 
+    /**
+     * Default constructor, uses this keyword to call the other constructor
+     */
+    public Animal() {
+        this("Default", 10, Classification.UNKNOWN);
+    }
 
     /**
      *
@@ -69,6 +75,10 @@ public class Animal {
      */
     public void setClassification(Classification classification) {
         this.classification = classification;
+    }
+
+    public void eat() {
+        System.out.println("Animal.eat() called");
     }
 
 
